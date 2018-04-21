@@ -1,5 +1,5 @@
 package tw.core.generator;
-
+import tw.core.generator.AnswerGenerator;
 import org.junit.Before;
 import org.junit.Test;
 import tw.core.Answer;
@@ -21,10 +21,11 @@ public class AnswerGeneratorTest {
         RandomNumStr=randomIntGenerator.generateNums(9, 4);
     }
 
-    @Test
-    public void testGenerate() {
-        Answer answer = Answer.createAnswer(RandomNumStr);
-        //answer.validate()
-    }
+//    @Test
+//    public void testGenerate() {
+//        Answer answer = Answer.createAnswer(RandomNumStr);
+      //  answer=answerGenerator.generate();
+
+    //}
 }
 
